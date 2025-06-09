@@ -34,8 +34,8 @@ A modern search engine for personal blogs that helps users discover authentic co
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/authentic-search.git
-cd authentic-search
+git clone https://github.com/sahil142214/AuthenticSearch
+cd AuthenticSearch
 ```
 
 2. Set up Python environment:
