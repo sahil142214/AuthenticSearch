@@ -1,0 +1,290 @@
+[
+    {
+      "name": "Wait But Why",
+      "url": "https://waitbutwhy.com/",
+      "rss_url": "https://waitbutwhy.com/feed",
+      "category": "philosophy",
+      "description": "Long-form explorations of life, science, and everything"
+    },
+    {
+      "name": "Manas Saloi",
+      "url": "https://manassaloi.com/",
+      "rss_url": "https://manassaloi.com/feed",
+      "category": "product",
+      "description": "Product management insights and career advice"
+    },
+    {
+      "name": "Paul Graham",
+      "url": "http://paulgraham.com/",
+      "rss_url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
+      "category": "startup",
+      "description": "Essays on startups, programming, and life"
+    },
+    {
+      "name": "LessWrong",
+      "url": "https://www.lesswrong.com/",
+      "rss_url": "https://www.lesswrong.com/feed.xml",
+      "category": "rationality",
+      "description": "Rationality and effective thinking"
+    },
+    {
+      "name": "Overreacted (Dan Abramov)",
+      "url": "https://overreacted.io/",
+      "rss_url": "https://overreacted.io/rss.xml",
+      "category": "programming",
+      "description": "Personal blog about software development"
+    },
+    {
+      "name": "Julia Evans",
+      "url": "https://jvns.ca/",
+      "rss_url": "https://jvns.ca/atom.xml",
+      "category": "programming",
+      "description": "Making hard concepts accessible through comics and clear explanations"
+    },
+    {
+      "name": "Scott H Young",
+      "url": "https://www.scotthyoung.com/",
+      "rss_url": "https://www.scotthyoung.com/blog/feed/",
+      "category": "learning",
+      "description": "Self-improvement and learning strategies"
+    },
+    {
+      "name": "Ben Kuhn",
+      "url": "https://www.benkuhn.net/",
+      "rss_url": "https://www.benkuhn.net/index.xml",
+      "category": "programming",
+      "description": "Software engineering and productivity"
+    },
+    {
+      "name": "Morgan Housel",
+      "url": "https://collabfund.com/blog/",
+      "rss_url": "https://collabfund.com/feed.xml",
+      "category": "finance",
+      "description": "Psychology of money and investing"
+    },
+    {
+      "name": "Stratechery (Ben Thompson)",
+      "url": "https://stratechery.com/",
+      "rss_url": "https://stratechery.com/feed/",
+      "category": "business",
+      "description": "Technology strategy and analysis"
+    },
+    {
+      "name": "Cal Newport",
+      "url": "https://calnewport.com/",
+      "rss_url": "https://calnewport.com/feed/",
+      "category": "productivity",
+      "description": "Deep work and digital minimalism"
+    },
+    {
+      "name": "Seth Godin",
+      "url": "https://seths.blog/",
+      "rss_url": "https://seths.blog/feed/",
+      "category": "marketing",
+      "description": "Daily insights on marketing and leadership"
+    },
+
+    {
+      "name": "James Clear",
+      "url": "https://jamesclear.com/",
+      "rss_url": "https://jamesclear.com/feed",
+      "category": "habits",
+      "description": "Habits, decision making, and continuous improvement"
+    },
+    {
+      "name": "Marginal Revolution",
+      "url": "https://marginalrevolution.com/",
+      "rss_url": "https://marginalrevolution.com/feed",
+      "category": "economics",
+      "description": "Economic analysis and cultural commentary"
+    },
+    {
+      "name": "Derek Sivers",
+      "url": "https://sive.rs/",
+      "rss_url": "https://sive.rs/en.atom",
+      "category": "philosophy",
+      "description": "Entrepreneurship and life philosophy"
+    },
+    {
+      "name": "Venkatesh Rao (Ribbonfarm)",
+      "url": "https://www.ribbonfarm.com/",
+      "rss_url": "https://www.ribbonfarm.com/feed/",
+      "category": "philosophy",
+      "description": "Experiments in refactored perception"
+    },
+    {
+      "name": "Zvi Mowshowitz",
+      "url": "https://thezvi.wordpress.com/",
+      "rss_url": "https://thezvi.wordpress.com/feed/",
+      "category": "rationality",
+      "description": "Game theory, rationality, and AI safety"
+    },
+    {
+      "name": "Tiago Forte",
+      "url": "https://fortelabs.com/",
+      "rss_url": "https://fortelabs.com/feed/",
+      "category": "productivity",
+      "description": "Building a second brain and knowledge management"
+    },
+    {
+      "name": "Anne-Laure Le Cunff",
+      "url": "https://nesslabs.com/",
+      "rss_url": "https://nesslabs.com/feed",
+      "category": "learning",
+      "description": "Mindful productivity and neuroscience"
+    },
+    {
+      "name": "Austin Kleon",
+      "url": "https://austinkleon.com/",
+      "rss_url": "https://austinkleon.com/feed/",
+      "category": "creativity",
+      "description": "Creativity and artistic process"
+    },
+    {
+      "name": "Ryan Holiday",
+      "url": "https://ryanholiday.net/",
+      "rss_url": "https://ryanholiday.net/feed/",
+      "category": "philosophy",
+      "description": "Stoic philosophy and self-improvement"
+    },
+    {
+      "name": "Patrick McKenzie",
+      "url": "https://www.kalzumeus.com/",
+      "rss_url": "https://www.kalzumeus.com/feed/",
+      "category": "business",
+      "description": "Software business and entrepreneurship"
+    },
+    {
+      "name": "Joel Spolsky",
+      "url": "https://www.joelonsoftware.com/",
+      "rss_url": "https://www.joelonsoftware.com/feed/",
+      "category": "programming",
+      "description": "Software development and management"
+    },
+    {
+      "name": "Jeff Atwood (Coding Horror)",
+      "url": "https://blog.codinghorror.com/",
+      "rss_url": "https://blog.codinghorror.com/rss/",
+      "category": "programming",
+      "description": "Programming and software development culture"
+    },
+    {
+      "name": "John Gruber (Daring Fireball)",
+      "url": "https://daringfireball.net/",
+      "rss_url": "https://daringfireball.net/feeds/main",
+      "category": "technology",
+      "description": "Apple, design, and technology commentary"
+    },
+    {
+      "name": "Bret Victor",
+      "url": "http://worrydream.com/",
+      "rss_url": "http://worrydream.com/feed.xml",
+      "category": "design",
+      "description": "Interface design and learning tools"
+    },
+    {
+      "name": "Maria Popova (The Marginalian)",
+      "url": "https://www.themarginalian.org/",
+      "rss_url": "https://www.themarginalian.org/feed/",
+      "category": "literature",
+      "description": "Literature, philosophy, and art intersections"
+    },
+    {
+      "name": "Tim Urban (Wait But Why)",
+      "url": "https://waitbutwhy.com/",
+      "rss_url": "https://waitbutwhy.com/feed",
+      "category": "philosophy",
+      "description": "Deep dives into complex topics with stick figures"
+    },
+    {
+      "name": "Naval Ravikant",
+      "url": "https://nav.al/",
+      "rss_url": "https://nav.al/feed",
+      "category": "philosophy",
+      "description": "Wealth, happiness, and decision-making"
+    },
+    {
+      "name": "Scott Alexander (Astral Codex Ten)",
+      "url": "https://astralcodexten.substack.com/",
+      "rss_url": "https://astralcodexten.substack.com/feed",
+      "category": "rationality",
+      "description": "Rationality, medicine, and society"
+    },
+    {
+      "name": "Robin Hanson",
+      "url": "http://www.overcomingbias.com/",
+      "rss_url": "http://www.overcomingbias.com/feed",
+      "category": "economics",
+      "description": "Overcoming bias in thinking and economics"
+    },
+    {
+      "name": "Tyler Cowen",
+      "url": "https://marginalrevolution.com/",
+      "rss_url": "https://marginalrevolution.com/feed",
+      "category": "economics",
+      "description": "Economics and cultural analysis"
+    },
+    {
+      "name": "Melting Asphalt",
+      "url": "https://meltingasphalt.com/",
+      "rss_url": "https://meltingasphalt.com/feed/",
+      "category": "philosophy",
+      "description": "Human nature and social dynamics"
+    },
+    {
+      "name": "Slate Star Codex Archives",
+      "url": "https://slatestarcodex.com/",
+      "rss_url": "https://slatestarcodex.com/feed/",
+      "category": "rationality",
+      "description": "Rationality and contrarian thinking"
+    },
+    {
+      "name": "Dynomight",
+      "url": "https://dynomight.net/",
+      "rss_url": "https://dynomight.net/feed.xml",
+      "category": "science",
+      "description": "Science experiments and data analysis"
+    },
+    {
+      "name": "Putanumonit",
+      "url": "https://putanumonit.com/",
+      "rss_url": "https://putanumonit.com/feed/",
+      "category": "rationality",
+      "description": "Statistics, dating, and decision-making"
+    },
+    {
+      "name": "Dan Luu",
+      "url": "https://danluu.com/",
+      "rss_url": "https://danluu.com/atom.xml",
+      "category": "programming",
+      "description": "Computer systems and performance analysis"
+    },
+    {
+      "name": "Brandur",
+      "url": "https://brandur.org/",
+      "rss_url": "https://brandur.org/articles.atom",
+      "category": "programming",
+      "description": "Software engineering and databases"
+    },
+    {
+      "name": "High Scalability",
+      "url": "http://highscalability.com/",
+      "rss_url": "http://feeds.feedburner.com/HighScalability",
+      "category": "programming",
+      "description": "Building scalable systems"
+    },
+    {
+      "name": "Jessie Frazelle",
+      "url": "https://blog.jessfraz.com/",
+      "rss_url": "https://blog.jessfraz.com/index.xml",
+      "category": "programming",
+      "description": "Containers, security, and systems programming"
+    },
+    {
+      "name": "Mitchell Hashimoto",
+      "url": "https://mitchellh.com/",
+      "rss_url": "https://mitchellh.com/feed.xml",
+      "category": "programming",
+      "description": "DevOps tools and infrastructure"
+    }
+  ]

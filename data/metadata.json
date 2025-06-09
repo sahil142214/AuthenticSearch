@@ -1,0 +1,12 @@
+{
+  "last_updated": "2025-06-09T18:29:50.726607",
+  "total_articles": 1191,
+  "total_blogs": 41,
+  "fetch_stats": {
+    "blogs_processed": 41,
+    "blogs_failed": 0,
+    "new_articles": 0,
+    "updated_articles": 0,
+    "skipped_articles": 1191
+  }
+}
