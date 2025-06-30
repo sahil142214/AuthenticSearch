@@ -6,10 +6,10 @@
     --background: #ffffff;
     --background-alt: #f9fafb;
     --border-color: #e5e7eb;
-    --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+    --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 
-* {
+•⁠  ⁠{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,7 +17,7 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    line-height: 1.5;
+    line-height: 1.6;
     color: var(--text-color);
     background: var(--background-alt);
 }
@@ -30,7 +30,8 @@ body {
 
 header {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+    animation: fadeInUp 0.5s ease-out forwards;
 }
 
 h1 {
@@ -47,6 +48,8 @@ h1 {
 
 .search-form {
     margin-bottom: 1.5rem;
+    animation: fadeInUp 0.5s 0.1s ease-out forwards;
+    opacity: 0;
 }
 
 .search-input-wrapper {
@@ -59,15 +62,16 @@ input[type="text"] {
     flex: 1;
     padding: 0.75rem 1rem;
     font-size: 1rem;
-    border: 2px solid var(--border-color);
+    border: 1px solid var(--border-color);
     border-radius: 0.5rem;
     background: var(--background);
-    transition: border-color 0.2s;
+    transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 input[type="text"]:focus {
     outline: none;
     border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary-color) 20%, transparent);
 }
 
 .search-button {
@@ -81,6 +85,7 @@ input[type="text"]:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 500;
 }
 
 .search-button:hover {
@@ -92,8 +97,10 @@ input[type="text"]:focus {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1.5rem;
-    padding: 0.5rem 0;
+    padding-bottom: 1rem;
     border-bottom: 1px solid var(--border-color);
+    animation: fadeInUp 0.5s 0.2s ease-out forwards;
+    opacity: 0;
 }
 
 .stats {
@@ -109,6 +116,7 @@ input[type="text"]:focus {
     color: var(--text-color);
     cursor: pointer;
     transition: all 0.2s;
+    font-weight: 500;
 }
 
 .random-button:hover {
@@ -124,14 +132,18 @@ input[type="text"]:focus {
 
 .article-card {
     background: var(--background);
-    border-radius: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.75rem;
     padding: 1.5rem;
     box-shadow: var(--shadow);
-    transition: transform 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s;
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-out forwards;
 }
 
 .article-card:hover {
-    transform: translateY(-2px);
+    transform: translateY(-4px);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 .article-card h3 {
@@ -139,18 +151,19 @@ input[type="text"]:focus {
 }
 
 .article-card h3 a {
-    color: var(--primary-color);
+    color: var(--text-color);
     text-decoration: none;
+    transition: color 0.2s;
 }
 
 .article-card h3 a:hover {
+    color: var(--primary-color);
     text-decoration: underline;
 }
 
 .article-card p {
-    color: var(--text-color);
+    color: var(--text-light);
     margin-bottom: 1rem;
-    line-height: 1.6;
 }
 
 .article-meta {
@@ -178,10 +191,19 @@ input[type="text"]:focus {
     text-decoration: underline;
 }
 
-.loading {
+.loading, .message-container {
     text-align: center;
-    padding: 2rem;
+    padding: 3rem 1rem;
+    background-color: var(--background);
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
     color: var(--text-light);
+}
+
+.message-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
 }
 
 .hidden {
@@ -195,9 +217,22 @@ footer {
     font-size: 0.9rem;
 }
 
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Media Queries */
 @media (max-width: 640px) {
     .container {
-        padding: 1rem;
+        padding: 1.5rem 1rem;
     }
 
     h1 {
@@ -209,4 +244,27 @@ footer {
         gap: 1rem;
         align-items: flex-start;
     }
-} 
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #38bdf8;
+        --primary-hover: #7dd3fc;
+        --text-color: #e5e7eb;
+        --text-light: #9ca3af;
+        --background: #1f2937;
+        --background-alt: #111827;
+        --border-color: #374151;
+        --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.4);
+    }
+
+    .article-card h3 a:hover {
+        color: var(--primary-color);
+    }
+    
+    .random-button:hover {
+        background: #374151;
+        border-color: var(--text-light);
+    }
+}
