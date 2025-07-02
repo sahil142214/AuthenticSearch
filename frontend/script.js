@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const loadingDiv = document.getElementById('loading');
     const totalArticlesSpan = document.getElementById('totalArticles');
     const randomButton = document.getElementById('randomButton');
-
+    
     const API_BASE = 'http://localhost:5050';
 
     function formatDate(dateString) {
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (text.length <= maxLength) return text;
         return text.slice(0, maxLength).trim() + '...';
     }
-
+    
     function createArticleCard(article) {
         const summaryText = truncateText(article.summary || 'No summary available.');
         const publishedDate = formatDate(article.published);
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     randomButton.addEventListener('click', getRandomArticle);
-
+    // update version and some minor fix on this page s
     // Initial setup
     loadStats();
     showWelcomeMessage();
