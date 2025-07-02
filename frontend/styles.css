@@ -262,7 +262,7 @@ footer {
     .article-card h3 a:hover {
         color: var(--primary-color);
     }
-    
+    // this is change from the pervios one is giving an error 
     .random-button:hover {
         background: #374151;
         border-color: var(--text-light);
